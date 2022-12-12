@@ -95,7 +95,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="4GY-k9-899">
-                                <rect key="frame" x="26" y="280" width="322" height="143"/>
+                                <rect key="frame" x="26" y="280" width="322" height="250"/>
                             </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -122,11 +122,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add a Birthday" id="YVm-vB-fl6">
-                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Y15-3d-2MR"/>
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="GY8-Jn-etv"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Y15-3d-2MR">
+                            <connections>
+                                <action selector="cancelTapped:" destination="BYZ-38-t0r" id="5Rg-lb-mlk"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="GY8-Jn-etv">
+                            <connections>
+                                <action selector="saveTapped:" destination="BYZ-38-t0r" id="DQC-qX-zTS"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="BirthdatePicker" destination="4GY-k9-899" id="f91-jI-zZm"/>
+                        <outlet property="birthdatePicker" destination="4GY-k9-899" id="0b3-L8-2kN"/>
                         <outlet property="firstNameTextField" destination="XqQ-hN-8hQ" id="OGH-cQ-lXg"/>
                         <outlet property="lastNameTextField" destination="i8K-AY-XoT" id="8iQ-Cq-4vk"/>
                     </connections>
