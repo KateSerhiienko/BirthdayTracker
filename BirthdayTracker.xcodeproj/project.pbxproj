@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2658C00129477D42001E4CF8 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658C00029477D42001E4CF8 /* Birthday.swift */; };
 		268742F429420C1B00734B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268742F329420C1B00734B8A /* AppDelegate.swift */; };
 		268742F629420C1B00734B8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268742F529420C1B00734B8A /* SceneDelegate.swift */; };
-		268742F829420C1B00734B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268742F729420C1B00734B8A /* ViewController.swift */; };
+		268742F829420C1B00734B8A /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268742F729420C1B00734B8A /* AddBirthdayViewController.swift */; };
 		268742FB29420C1B00734B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268742F929420C1B00734B8A /* Main.storyboard */; };
 		268742FE29420C1B00734B8A /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 268742FC29420C1B00734B8A /* BirthdayTracker.xcdatamodeld */; };
 		2687430029420C1C00734B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268742FF29420C1C00734B8A /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2658C00029477D42001E4CF8 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		268742F029420C1B00734B8A /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268742F329420C1B00734B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268742F529420C1B00734B8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		268742F729420C1B00734B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268742F729420C1B00734B8A /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		268742FA29420C1B00734B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		268742FD29420C1B00734B8A /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		268742FF29420C1C00734B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				268742F329420C1B00734B8A /* AppDelegate.swift */,
 				268742F529420C1B00734B8A /* SceneDelegate.swift */,
-				268742F729420C1B00734B8A /* ViewController.swift */,
+				268742F729420C1B00734B8A /* AddBirthdayViewController.swift */,
 				268742F929420C1B00734B8A /* Main.storyboard */,
 				268742FF29420C1C00734B8A /* Assets.xcassets */,
 				2687430129420C1C00734B8A /* LaunchScreen.storyboard */,
 				2687430429420C1C00734B8A /* Info.plist */,
 				268742FC29420C1B00734B8A /* BirthdayTracker.xcdatamodeld */,
+				2658C00029477D42001E4CF8 /* Birthday.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268742F829420C1B00734B8A /* ViewController.swift in Sources */,
+				2658C00129477D42001E4CF8 /* Birthday.swift in Sources */,
+				268742F829420C1B00734B8A /* AddBirthdayViewController.swift in Sources */,
 				268742F429420C1B00734B8A /* AppDelegate.swift in Sources */,
 				268742F629420C1B00734B8A /* SceneDelegate.swift in Sources */,
 				268742FE29420C1B00734B8A /* BirthdayTracker.xcdatamodeld in Sources */,

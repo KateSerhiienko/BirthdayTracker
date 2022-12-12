@@ -7,7 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AddBirthdayViewController: UIViewController {
+    
+    @IBOutlet var firstNameTextField: UITextField!
+    @IBOutlet var lastNameTextField: UITextField!
+    @IBOutlet var BirthdatePicker: UIDatePicker!
 
     override func viewDidLoad() {
         super.viewDidLoad()
