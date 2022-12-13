@@ -15,6 +15,7 @@
 		268742FE29420C1B00734B8A /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 268742FC29420C1B00734B8A /* BirthdayTracker.xcdatamodeld */; };
 		2687430029420C1C00734B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268742FF29420C1C00734B8A /* Assets.xcassets */; };
 		2687430329420C1C00734B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2687430129420C1C00734B8A /* LaunchScreen.storyboard */; };
+		26E1166D2948EEA80062FCD7 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1166C2948EEA70062FCD7 /* BirthdaysTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		268742FF29420C1C00734B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2687430229420C1C00734B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2687430429420C1C00734B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E1166C2948EEA70062FCD7 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				268742F329420C1B00734B8A /* AppDelegate.swift */,
 				268742F529420C1B00734B8A /* SceneDelegate.swift */,
 				268742F729420C1B00734B8A /* AddBirthdayViewController.swift */,
+				26E1166C2948EEA70062FCD7 /* BirthdaysTableViewController.swift */,
 				268742F929420C1B00734B8A /* Main.storyboard */,
 				268742FF29420C1C00734B8A /* Assets.xcassets */,
 				2687430129420C1C00734B8A /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E1166D2948EEA80062FCD7 /* BirthdaysTableViewController.swift in Sources */,
 				2658C00129477D42001E4CF8 /* Birthday.swift in Sources */,
 				268742F829420C1B00734B8A /* AddBirthdayViewController.swift in Sources */,
 				268742F429420C1B00734B8A /* AppDelegate.swift in Sources */,
